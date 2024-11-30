@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" type="bluer-icon" href="bluer logo.png" class="bluer-icon">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="navbar">
+        <li class="navbar-button"><a href="index.html">Home</a></li>
+        <li class="navbar-button"><a href="blog.html">Blog</a></li>
+        <li class="navbar-button"><a href="about.html">About</a></li>
+        <li class="navbar-button"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="blog-section">
+      <h2 class="h2-blog">BLOG</h2>
+      <div class="blog-container">
+        <div class="blog-card" onclick="openArticle('article1.html')">
+          <a href="artikel1.html" target="_blank">
+            <h3 class="h3-blog">Cara Menangani Stres di Dunia Perkuliahan</h3>
+          </a>
+          <p>Buat para mahasiswa di luar sana yang sering dipusingin sama perkuliahan nih</p>
+        </div>
+        <div class="blog-card" onclick="openArticle('article2.html')">
+          <a href="artikel2.html">
+            <h3 class="h3-blog">Tips Cepat Mengerjakan Tugas bagi Mahasiswa</h3>
+          </a>
+          <p>Tau sendiri kan tugas banyak? nih tips biar cepet</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,268 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1, h2 {
+  color: #0044cc;
+}
+
+nav {
+  background: rgb(29,98,180);
+  background: linear-gradient(90deg, rgba(29,98,180,1) 0%, rgba(9,9,121,1) 47%, rgba(49,76,140,1) 100%);
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 30px;
+}
+
+.navbar-button {
+  padding: 10px;
+
+}
+
+.navbar-button:hover {
+  transition: 0.2s;
+  border-style: solid;
+  border-color: #ddd;
+  border-width: 2px;
+  border-radius: 10px;
+  transform: translateX(10px);
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #ddd;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 10px;
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.h1-landing-page {
+  font-size: 70px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 5px;
+  text-shadow: 0px 0px 4px #0044cc;
+}
+
+.p-landing-page {
+  font-weight: bold;
+}
+
+.btn {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  border-color: #0044cc;
+  font-weight: 700;
+  font-size: 16px;
+  color: #012d85;
+  margin: 20px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(201, 201, 201);
+  transform: translateX(-5px);
+  transition: 0.4s;
+}
+
+.landing-page, .blog-section, .about-section, .contact-section {
+  background: #eef7ff;
+  padding: 100px 20px;
+}
+
+.h2-blog {
+  font-size: 60px;
+}
+
+.blog-card a {
+  text-decoration: none;
+  color: #012d85;
+}
+
+.h3-blog:hover {
+  text-decoration: underline;
+  color: #2465fd;
+  font-size: 24px;
+  transition: 0.5s;
+}
+
+.h1-about {
+  color: #333;
+  font-size: 60px;
+  text-align: left;
+  text-shadow: 0px 0px 4px rgba(0,0,0,0.58);
+}
+
+.h2-about {
+  font-weight: 300;
+  font-size: 20px;
+  text-align: left;
+  color: #333;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.about-text {
+  width: 50%;
+  font-size: large;
+  justify-items: start;
+}
+
+.social-media {
+  padding-top: 20px;
+  padding-left: 0px;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 24px;
+  margin: 14px;
+  display: flex;
+}
+
+.socmed-img {
+  width: 5%;
+  margin-right: 10px;
+}
+
+.about-image img {
+  width: 85%;
+  border-radius: 10px;
+  filter: grayscale(100%);
+  transition: filter 0.5s ease-in-out;
+  -webkit-mask-image: linear-gradient(#000, rgba(0,0,0,0));
+  mask-image: linear-gradient(#000, rgba(0,0,0,0));
+}
+
+.about-image img:hover {
+  filter: grayscale(0%);
+}
+
+.h1-contact {
+  font-size: 70px;
+  text-shadow: 0px 0px 4px rgba(0,0,0,0.58);
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 18px;
+  display: flexbox;
+  margin: 50px;
+  padding: 16px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0px 3px 14px -11px rgba(0,0,0,0.69);
+  -webkit-box-shadow: 0px 3px 14px -11px rgba(0,0,0,0.69);
+  -moz-box-shadow: 0px 3px 14px -11px rgba(0,0,0,0.69);
+}
+
+.contact-info a:hover {
+  background-color: #2964ee;
+  color: #ddd;
+  border-color: #333;
+  transition: 0.5s;
+}
+
+.img-contact {
+  width: 18px;
+}
+
+.artikel-section {
+  display: flexbox;
+}
+
+.btn-artikel {
+  display: flex;
+  padding: 10px;
+  border-width: 1px;
+  border-radius: 20px;
+  border-color: #ddd;
+  font-weight: bold;
+  color: #ddd;
+  background-color: #333;
+  margin: 10px;
+  box-shadow: 4px 4px 34px -8px rgba(0,0,0,0.52);
+  -webkit-box-shadow: 4px 4px 34px -8px rgba(0,0,0,0.52);
+  -moz-box-shadow: 4px 4px 34px -8px rgba(0,0,0,0.52);
+}
+
+.btn-artikel:hover {
+  cursor: pointer;
+  transform: translateX(10px);
+  background-color: #012d85;
+  font-size: 18px;
+  transition: 0.5s ease-out;
+}
+
+.h1-artikel {
+  text-align: left;
+  color: #333;
+  font-size: 40px;
+}
+
+.h2-artikel {
+  text-align: left;
+  color: #333;
+  font-size: 24px;
+}
+
+.p-artikel {
+  text-align: left;
+  width: 720px;
+}
+
+.ul-artikel {
+  list-style: disc;
+}
+
+.li-artikel {
+  width: 720px;
+  text-align: justify;
+  padding-left: 1em;
+  padding: 5px;
+}
+
+.referensi {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+}
+
+.referensi:hover {
+  color: #012d85;
+  font-size: 18px;
+  transition: 0.5s;
+}
